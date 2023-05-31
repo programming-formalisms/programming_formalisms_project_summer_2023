@@ -40,6 +40,12 @@ in 2023.
  * 100% code coverage
  * `ruff` style guide
 
+## Newbie Issues
+
+ * [Join the team](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/1)
+ * [Create a branch with your name](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/4)
+ * [Add your personal branch to README.md](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/4)
+
 ## Guidelines
 
  * [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)

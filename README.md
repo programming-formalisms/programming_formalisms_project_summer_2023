@@ -42,9 +42,41 @@ in 2023.
 
 ## Newbie Issues
 
- * [Join the team](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/1)
- * [Create a branch with your name](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/4)
- * [Add your personal branch to README.md](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/4)
+ 1. [Join the team](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/1)
+ 2. [Create a branch with your name](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/4)
+ 3. [Add your personal branch to README.md](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/4)
+ 4. Pick and solve an early Euler problem:
+   * [1](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/6)
+   * [2](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/7)
+   * [3](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/8)
+   * [4](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/9)
+   * [5](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/10)
+   * [6](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/11)
+   * [7](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/12)
+   * [8](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/13)
+   * [9](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/14)
+   * [10](https://github.com/programming-formalisms/programming_formalisms_project_2023/issues/15)
+
+In all cases:
+
+ * Assign yourself to the Issue if you work on it: only then it is yours
+ * Put the Issue to 'In Progress' while you work on it
+ * Put the Issue to 'In review' after doing the Pull Request to `develop`
+
+## Junior Issues
+
+Here you are more free.
+
+Pick your favorite among:
+
+ * Refactor a solved Euler project solution
+ * Improve the speed of a solved Euler project solution
+ * Solve a harder Euler project problem
+ * Solve a custom problem: create a simple design document first
+
+In all cases:
+
+ * Create an Issue for it
 
 ## Guidelines
 

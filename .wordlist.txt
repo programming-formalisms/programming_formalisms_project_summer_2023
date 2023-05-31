@@ -71,4 +71,25 @@ yml
 Zenodo
 UPPMAX
 tdd
+YAGNI
+POLA
+OOP
+Driessen
+kanban
+faq
+https
+www
+nl
+richel
+richelbilderbeek
+sexualized
+socio
+
+
+
+
+
+
+
+
 

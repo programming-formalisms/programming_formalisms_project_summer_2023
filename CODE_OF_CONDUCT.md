@@ -62,6 +62,8 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
 richel@richelbilderbeek.nl.
 All complaints will be reviewed and investigated promptly and fairly.
+**If you prefer someone else to handle your report (e.g. you have a
+problem with Richèl), contact the course coordinator.**
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.

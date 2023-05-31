@@ -1,8 +1,15 @@
 # programming_formalisms_project_2023
 
-The Python Programming Formalisms project of 2023.
+The project of [the UPPMAX 'Programming Formalisms' course](https://github.com/UPPMAX/programming_formalisms)
+in 2023.
 
-See also [the R Programming Formalisms project of 2023](https://github.com/richelbilderbeek/programming_formalisms_project_2023_r).
+For R: see [the R Programming Formalisms project of 2023](https://github.com/richelbilderbeek/programming_formalisms_project_2023_r).
+
+## Goal
+
+ * Develop code together in a formal/structured way
+ * Get experience with best practices
+ * Maybe bonus: use the code developed for your own work
 
 ## Workflow
 
@@ -19,14 +26,13 @@ See also [the R Programming Formalisms project of 2023](https://github.com/riche
    * `master` always works
    * `develop` is where merging takes place. 
      Merging to `develop` is done by a Pull Request with a code review,
-     that follows a Code of Conduct
+     that follows a [Code of Conduct](CODE_OF_CONDUCT.md)
    * Feature branches are where Issues are fixed
 
  * Use of TDD
  * Use of CI: tests, codecov, ruff
  * 100% code coverage
  * `ruff` style guide
-
 
 ## Guidelines
 

@@ -1,9 +1,13 @@
 # programming_formalisms_project_2023
 
+Branch  |`check_package`|`measure_coverage`|`check_links`|`check_spelling`
+--------|---------------|------------------|-------------|----------------------
+`master`|[![check_package](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/check_package.yml/badge.svg?branch=master)](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/check_package.yml) | [![Codecov](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/measure_coverage.yml/badge.svg?branch=master)](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/measure_coverage.yml) | [![check_links](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/check_links.yaml/badge.svg?branch=master)](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/check_links.yaml) | [![check_spelling](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/check_spelling.yaml/badge.svg?branch=master)](https://github.com/programming-formalisms/programming_formalisms_project_2023/actions/workflows/check_spelling.yaml)
+
 The project of [the UPPMAX 'Programming Formalisms' course](https://github.com/UPPMAX/programming_formalisms)
 in 2023.
 
-For R: see [the R Programming Formalisms project of 2023](https://github.com/richelbilderbeek/programming_formalisms_project_2023_r).
+For R: see [the R Programming Formalisms project of 2023](https://github.com/programming-formalisms/programming_formalisms_project_2023_r).
 
 ## Goal
 

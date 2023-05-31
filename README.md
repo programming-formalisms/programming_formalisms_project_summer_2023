@@ -54,3 +54,4 @@ in 2023.
  * [You aren't gonna need it: YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
  * [Fail Fast](https://en.wikipedia.org/wiki/Fail-fast)
  * [Refactoring](https://refactoring.com/catalog/)
+

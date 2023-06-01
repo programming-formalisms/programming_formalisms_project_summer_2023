@@ -5,7 +5,42 @@
  * no for-loops
  * maximally one variable modified
 """
-def sum_even_fibonacci_numbers(starting_value):
+def add_fibonacci(first, second):
+    """
+    Takes two input integers, returns the second integer plus the sum of the two
+    """
+    
+    if (not isinstance(first, int)) | (not isinstance(second, int)):
+        raise TypeError('input numbers need to be integers')
+
+    result = first + second
+
+    return second, result
+
+
+def Fibonacci_sequence(first_starting_number, second_starting_number, end_sequence):
+    """
+    Takes two integers, returns a list of integers corresponding to the Fibonacci sequence with the last value smaller than end sequence
+    """
+    
+
+    if (not isinstance(first_starting_number, int)) | (not isinstance(second_starting_number, int)) | (not isinstance(end_sequence, int)):
+        raise TypeError('input numbers need to be integers')
+
+    Fibonacci_list = [first_starting_number, second_starting_number]
+    while second_starting_number < end_sequence:
+        if max(first_starting_number, second_starting_number) > end_sequence:
+            break
+        first_starting_number, second_starting_number = add_fibonacci(first_starting_number, second_starting_number)
+        if second_starting_number > end_sequence:
+            break
+        Fibonacci_list.append(second_starting_number)
+        
+    return Fibonacci_list
+    
+
+
+def sum_even_fibonacci_numbers(starting_value, second_starting_value):
     """Pick out even numbers in the Fibonacci sequence and sum them up
 
        For numbers smaller than 4 million
@@ -15,8 +50,14 @@ def sum_even_fibonacci_numbers(starting_value):
         raise TypeError(
             msg, type(starting_value),
         )
-    
-    return 1
+
+    fibonacci_sequence = Fibonacci_sequence(starting_value, second_starting_value, 4e6)
+    even_sum = 0
+    for value in fibonacci_sequence:
+        if is_even(value):
+            even_sum += value
+            
+    return even_sum
 
 
 def are_numbers(x):

@@ -5,6 +5,10 @@
  * no for-loops
  * maximally one variable modified
 """
+def sum_even_fibonacci_numbers():
+
+    return 1
+
 
 def are_numbers(x):
     """Determine if `x` is one or more numbers.

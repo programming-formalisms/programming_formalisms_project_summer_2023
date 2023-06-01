@@ -18,6 +18,7 @@ from src.pfp2023_richelbilderbeek.tdd import (
     is_probability,
     is_string,
     is_zero,
+    sum_even_fibonacci_numbers,
 )
 
 
@@ -147,3 +148,8 @@ class TestEasySolutions(unittest.TestCase):
         self.assertRaises(TypeError, is_zero, {1, 2})
         self.assertRaises(TypeError, is_zero, "I am a string")
 
+
+    def test_sum_even_fibonacci_numbers(self):
+        """Test 'sum_even_fibonacci_numbers'."""
+        self.assertIsNotNone(sum_even_fibonacci_numbers.__doc__)
+        

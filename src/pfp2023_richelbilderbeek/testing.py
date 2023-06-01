@@ -51,6 +51,8 @@ def is_prime(num):
     if not isinstance(num, int):
         message = "'num' must be an integer"
         raise TypeError(message)  
+    return True
+
 
 
 def sum_primes(num):

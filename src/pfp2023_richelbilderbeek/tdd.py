@@ -6,7 +6,10 @@
  * maximally one variable modified
 """
 def sum_even_fibonacci_numbers():
+    """Pick out even numbers in the Fibonacci sequence and sum them up
 
+       For numbers smaller than 4 million
+    """
     return 1
 
 

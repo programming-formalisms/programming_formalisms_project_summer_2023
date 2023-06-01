@@ -5,11 +5,17 @@
  * no for-loops
  * maximally one variable modified
 """
-def sum_even_fibonacci_numbers():
+def sum_even_fibonacci_numbers(starting_value):
     """Pick out even numbers in the Fibonacci sequence and sum them up
 
        For numbers smaller than 4 million
     """
+    if not isinstance(starting_value, int):
+        msg = "'number' must be a number. Actual type of 'number': "
+        raise TypeError(
+            msg, type(starting_value),
+        )
+    
     return 1
 
 

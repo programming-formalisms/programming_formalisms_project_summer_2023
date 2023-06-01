@@ -152,4 +152,5 @@ class TestEasySolutions(unittest.TestCase):
     def test_sum_even_fibonacci_numbers(self):
         """Test 'sum_even_fibonacci_numbers'."""
         self.assertIsNotNone(sum_even_fibonacci_numbers.__doc__)
-        
+        self.assertRaises(TypeError, sum_even_fibonacci_numbers, {1, 2})
+        self.assertRaises(TypeError, sum_even_fibonacci_numbers, 'This is a string')

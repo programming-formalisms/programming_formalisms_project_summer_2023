@@ -1,4 +1,4 @@
-"""Test the functions in src.pfp2023_richelbilderbeek.testing_solutions."""
+"""Test the functions in src.pfp2023_richelbilderbeek.testing."""
 import unittest
 from random import seed
 

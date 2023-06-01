@@ -11,4 +11,6 @@ def sum_square_differences(n):
     -------
     : int
         Returns the difference"""
+    if not isinstance(n, int):
+        raise TypeError(f"n <{n}> needs to be an integer")
     pass

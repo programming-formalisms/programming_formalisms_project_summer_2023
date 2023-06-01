@@ -8,4 +8,5 @@ class TestEasySolutions(unittest.TestCase):
          """Test 'sum_square_differences'."""
          self.assertIsNotNone(sum_square_differences.__doc__)
          self.assertRaises(TypeError, sum_square_differences, 10.5)
+         self.assertEqual(2640, sum_square_differences(10))
          

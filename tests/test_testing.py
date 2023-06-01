@@ -29,6 +29,7 @@ class TestTestingSolutions(unittest.TestCase):
     def test_is_prime(self):
         """Test 'sum_primes'."""
         self.assertIsNotNone(is_prime.__doc__)
+        self.assertRaises(TypeError, is_prime, 'blah blah')
 
 
     def test_flip_coin(self):

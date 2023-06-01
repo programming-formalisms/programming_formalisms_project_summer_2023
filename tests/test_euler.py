@@ -14,3 +14,5 @@ class TestEasySolutions(unittest.TestCase):
         Test Euler 1 problem: multiples of 3 or 5
         """
         self.assertIsNotNone(euler_1.__doc__)
+        result = 970220
+        self.assertTrue(euler_1() == result)

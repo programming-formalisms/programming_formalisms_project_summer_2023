@@ -1,6 +1,6 @@
 """Euler problems"""
 
-def euler_1(x):
+def euler_1():
     """
     Euler Project problem 1: multiples of 3 or 5
     If we list all the natural numbers below 10 that are multiples of 
@@ -8,3 +8,4 @@ def euler_1(x):
     
     Find the sum of all the multiples of 3 or 5 below 1000.
     """
+    pass

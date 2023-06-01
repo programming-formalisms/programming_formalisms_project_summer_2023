@@ -33,6 +33,7 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertTrue(is_prime(2))
         self.assertFalse(is_prime(4))
         self.assertFalse(is_prime(0))
+        self.assertRaises(ValueError, is_prime, -50)
 
 
     def test_flip_coin(self):

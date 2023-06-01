@@ -51,6 +51,9 @@ def is_prime(num):
     if not isinstance(num, int):
         message = "'num' must be an integer"
         raise TypeError(message) 
+    if num < 0:
+        message = 'Please provide a positive integer'
+        raise ValueError(message)
     if num < 2:
         return False    
     if num == 2:
@@ -58,7 +61,8 @@ def is_prime(num):
     for x in range(2,int(num/2) + 1):
         if num % x  == 0:
             return False
-    return True        
+    return True 
+
 
 
 

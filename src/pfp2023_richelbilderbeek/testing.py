@@ -43,6 +43,12 @@ def roll_dice():
     return randint(1, 6) # noqa: S311
 
 
+def is_prime(num):
+    """
+    Check for whether num is a prime
+    raises error if not an int
+    """
+
 def sum_primes(num):
     """
     Claculates the sum of all primes up to the given number 

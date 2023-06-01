@@ -45,7 +45,6 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertEqual(get_digits(1), [1])
         self.assertEqual(get_digits(0), [0])
         self.assertEqual(get_digits(12), [1, 2])
-        assert 1 == 2
         self.assertEqual(get_digits(-12), [1, 2])
 
     def test_roll_dice(self):

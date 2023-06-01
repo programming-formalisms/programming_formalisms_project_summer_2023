@@ -1,6 +1,6 @@
-"""The Medium Project.
+"""The Programming Formalisms Project 2023.
 
-Medium-sized project uses in the UPPMAX Programming Formalisms course.
+Project used in the UPPMAX Programming Formalisms course.
 """
 import cProfile
 

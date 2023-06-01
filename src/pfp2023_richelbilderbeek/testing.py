@@ -44,7 +44,7 @@ def roll_dice():
 
 
 def sum_primes(num):
-    """Calculates the sum of all primes up to the given number."""
+    """Calculate the sum of all primes up to the given number."""
     if not isinstance(num, int):
         message = "'num' must be an integer"
         raise TypeError(message)
@@ -56,7 +56,7 @@ def sum_primes(num):
         return(two)
     else:
         return(0)
-    
+ 
     for i in range(3, num+1, 2):
         not_prime = False
         for j in range(1, i):

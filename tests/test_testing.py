@@ -6,7 +6,7 @@ from src.pfp2023_richelbilderbeek.testing import (
     flip_coin,
     get_digits,
     roll_dice,
-    sum_primes    
+    sum_primes,
 )
 
 

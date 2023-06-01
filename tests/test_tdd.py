@@ -1,7 +1,7 @@
-"""Tests all function in src.pftesting_richelbilderbeek.easy_solutions."""
+"""Tests all function in src.pfp2023_richelbilderbeek.easy_solutions."""
 import unittest
 
-from src.pfp2023_richelbilderbeek.tdd_solutions import (
+from pfp2023_richelbilderbeek.tdd import (
     are_numbers,
     are_strings,
     check_are_numbers,
@@ -23,7 +23,7 @@ from src.pfp2023_richelbilderbeek.tdd_solutions import (
 
 class TestEasySolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pftesting_richelbilderbeek.easy_solutions."""
+    """Class to test the functions in src.pfp2023_richelbilderbeek.easy_solutions."""
 
     def test_are_numbers(self):
         """Test 'are_numbers'."""

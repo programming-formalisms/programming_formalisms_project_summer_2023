@@ -1,8 +1,8 @@
-"""Test the functions in src.pftesting_richelbilderbeek.testing_solutions."""
+"""Test the functions in src.pfp2023_richelbilderbeek.testing_solutions."""
 import unittest
 from random import seed
 
-from src.pfp2023_richelbilderbeek.testing_solutions import (
+from pfp2023_richelbilderbeek.testing import (
     flip_coin,
     get_digits,
     roll_dice,

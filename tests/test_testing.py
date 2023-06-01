@@ -6,12 +6,17 @@ from src.pfp2023_richelbilderbeek.testing import (
     flip_coin,
     get_digits,
     roll_dice,
+    sum_primes    
 )
 
 
 class TestTestingSolutions(unittest.TestCase):
 
     """Class to test all function."""
+
+    def test_sum_primes(self):
+        """Test 'sum_primes'."""
+        self.assertIsNotNone(flip_coin.__doc__)
 
     def test_flip_coin(self):
         """Test 'flip_coin'."""

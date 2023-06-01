@@ -41,3 +41,12 @@ def get_digits(x):
 def roll_dice():
     """Produce a random integer, similar to a dice toll."""
     return randint(1, 6) # noqa: S311
+
+
+def sum_primes(num):
+    """
+    Claculates the sum of all primes up to the given number 
+    """
+    return
+
+

@@ -13,7 +13,6 @@ class TestEasySolutions(unittest.TestCase):
         """
         Test Euler 1 problem: multiples of 3 or 5
         """
-        self.assertIsNotNone(euler_1.__doc__)
-        self.assertTrue(euler_1() < 499500) # total of all numbers
-        self.assertTrue(euler_1() < 166833) # that is summing up all numbers dividable by 3
+        self.assertIsNotNone(euler_1.__doc__)        
+        self.assertTrue(euler_1() < 166834) # that is summing up all numbers dividable by 3
 

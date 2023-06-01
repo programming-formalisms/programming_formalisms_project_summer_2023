@@ -10,5 +10,6 @@ def euler_1():
     """
     total = 0
     for n in range(1000):
-        total += n
+        if n % 3 == 0:
+            total += n
     return total

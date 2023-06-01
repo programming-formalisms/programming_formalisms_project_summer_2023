@@ -1,7 +1,7 @@
 """Tests all function in src.pftesting_richelbilderbeek.easy_solutions."""
 import unittest
 
-from src.pftesting_richelbilderbeek.tdd_solutions import (
+from src.pfp2023_richelbilderbeek.tdd_solutions import (
     are_numbers,
     are_strings,
     check_are_numbers,

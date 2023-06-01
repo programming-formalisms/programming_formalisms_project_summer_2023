@@ -32,6 +32,7 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertRaises(TypeError, is_prime, 'blah blah')
         self.assertTrue(is_prime(2))
         self.assertFalse(is_prime(4))
+        self.assertFalse(is_prime(0))
 
 
     def test_flip_coin(self):

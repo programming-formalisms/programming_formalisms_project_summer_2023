@@ -56,7 +56,6 @@ def sum_primes(num):
         return(two)
     else:
         return(0)
- 
     for i in range(3, num+1, 2):
         not_prime = False
         for j in range(1, i):

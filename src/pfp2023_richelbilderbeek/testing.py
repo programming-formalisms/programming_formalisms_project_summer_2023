@@ -50,8 +50,14 @@ def is_prime(num):
     """
     if not isinstance(num, int):
         message = "'num' must be an integer"
-        raise TypeError(message)  
-    return True
+        raise TypeError(message) 
+    if num == 2:
+        return True
+    for x in range(2,int(num/2) + 1):
+        if num % x  == 0:
+            return False
+    return True        
+
 
 
 

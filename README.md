@@ -12,6 +12,8 @@ Branch [1]|`check_package`|`measure_coverage`|`check_links`|`check_spelling`
 The project of [the UPPMAX 'Programming Formalisms' course](https://github.com/UPPMAX/programming_formalisms)
 in 2023.
 
+We develop together [here](https://uu-se.zoom.us/j/7093465705), passcode 42.
+
 ## Goal
 
  * Develop code together in a formal/structured way

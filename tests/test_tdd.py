@@ -162,3 +162,4 @@ class TestEasySolutions(unittest.TestCase):
     def test_add_fibonacci(self):
         """Test 'add_fibonacci'."""
         self.assertIsNotNone(add_fibonacci.__doc__)
+        self.assertTrue(len(add_fibonacci(1,3)) == 2)

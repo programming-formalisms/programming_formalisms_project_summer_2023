@@ -17,6 +17,7 @@ class TestTestingSolutions(unittest.TestCase):
     def test_sum_primes(self):
         """Test 'sum_primes'."""
         self.assertIsNotNone(flip_coin.__doc__)
+        self.assertRaises(TypeError, sum_primes, "evil string")
         self.assertEqual(sum_primes(1), 1)
 
     def test_flip_coin(self):

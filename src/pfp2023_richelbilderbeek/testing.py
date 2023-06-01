@@ -47,6 +47,15 @@ def sum_primes(num):
     """
     Claculates the sum of all primes up to the given number 
     """
+    if not isinstance(num, int):
+        message = "'num' must be an integer"
+        raise TypeError(message)
+    primes = []
+    for i in range(1, num+1, 2):
+        for j in range(2, num):
+            if i%j == 0:
+                prime.append(i)
+                continue
     return
 
 

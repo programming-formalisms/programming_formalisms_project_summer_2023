@@ -2,7 +2,7 @@
 import unittest
 from random import seed
 
-from pfp2023_richelbilderbeek.testing import (
+from src.pfp2023_richelbilderbeek.testing import (
     flip_coin,
     get_digits,
     roll_dice,

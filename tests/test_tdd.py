@@ -155,8 +155,8 @@ class TestEasySolutions(unittest.TestCase):
         self.assertIsNotNone(sum_even_fibonacci_numbers.__doc__)
         self.assertRaises(TypeError, sum_even_fibonacci_numbers, {1, 2})
         self.assertRaises(TypeError, sum_even_fibonacci_numbers, 'This is a string')
-        #self.assertTrue(is_even(sum_even_fibonacci_numbers(1, 1)))
-        #self.assertTrue(sum_even_fibonacci_numbers(4e6, 4e6))
+        self.assertTrue(is_even(sum_even_fibonacci_numbers(1, 1)))
+        self.assertTrue(sum_even_fibonacci_numbers(4000000, 4000000) >= 4000000)
 
 
     def test_add_fibonacci(self):

@@ -51,7 +51,7 @@ def sum_even_fibonacci_numbers(starting_value, second_starting_value):
             msg, type(starting_value),
         )
 
-    fibonacci_sequence = Fibonacci_sequence(starting_value, second_starting_value, 4e6)
+    fibonacci_sequence = Fibonacci_sequence(starting_value, second_starting_value, 4000000)
     even_sum = 0
     for value in fibonacci_sequence:
         if is_even(value):

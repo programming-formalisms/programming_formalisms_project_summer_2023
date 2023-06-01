@@ -29,6 +29,7 @@ in 2023.
    when an Issue is posted for review, move the Issue to 'Under review'
  * Always work in pairs. Switch roles using either time, or Ping-Pong technique
  * Branching model from [Vincent Driessen's post](https://nvie.com/posts/a-successful-git-branching-model/)
+   (see also this video: [YouTube](https://youtu.be/pM520_JLR6w) [download (.ogv)](https://richelbilderbeek.nl/git_work_on_feature_branch_pull_request_to_develop.ogv))
    * `master` always works
    * `develop` is where merging takes place. 
      Merging to `develop` is done by a Pull Request with a code review,

@@ -2,10 +2,11 @@
 import unittest
 from random import seed
 
-from src.pfp2023_richelbilderbeek.testing import (
+from ..src.pfp2023_richelbilderbeek.testing import (
     flip_coin,
     get_digits,
     roll_dice,
+    find_largest_prime_factor
 )
 
 

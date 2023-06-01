@@ -6,12 +6,23 @@ from src.pfp2023_richelbilderbeek.testing import (
     flip_coin,
     get_digits,
     roll_dice,
+    sum_primes,
 )
 
 
 class TestTestingSolutions(unittest.TestCase):
 
     """Class to test all function."""
+
+    def test_sum_primes(self):
+        """Test 'sum_primes'."""
+        self.assertIsNotNone(flip_coin.__doc__)
+        self.assertRaises(TypeError, sum_primes, "evil string")
+        self.assertRaises(TypeError, sum_primes, 0.7)
+        self.assertEqual(sum_primes(1), 0)
+        self.assertEqual(sum_primes(0), 0)
+        self.assertEqual(sum_primes(10), 17)
+        self.assertEqual(sum_primes(100), 1060)
 
     def test_flip_coin(self):
         """Test 'flip_coin'."""

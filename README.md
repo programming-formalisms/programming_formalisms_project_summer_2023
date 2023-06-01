@@ -18,7 +18,6 @@ Branch [1]   |`check_package`|`measure_coverage`|`check_links`|`check_spelling`
 
 
 
-
  * [1] Branches are ordered: `master`, `develop`, then name of the feature branches alphabetically
 
 The project of [the UPPMAX 'Programming Formalisms' course](https://github.com/UPPMAX/programming_formalisms)

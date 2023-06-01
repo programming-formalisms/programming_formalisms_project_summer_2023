@@ -52,7 +52,15 @@ def sum_primes(num):
         raise TypeError(message)
     
     primes = []
-    for i in range(1, num+1, 2):
+
+    if num > 2:
+        primes.append(2)
+    elif num == 2:
+        return(2)
+    else:
+        return(0)
+    
+    for i in range(3, num+1, 2):
         not_prime = False
 
         for j in range(1, i):
@@ -64,5 +72,3 @@ def sum_primes(num):
             primes.append(i)
         
     return sum(primes)
-
-print(sum_primes(1))

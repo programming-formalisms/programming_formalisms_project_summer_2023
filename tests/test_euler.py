@@ -8,9 +8,10 @@ from src.pfp2023_richelbilderbeek.euler import (
 
 class TestEasySolutions(unittest.TestCase):
 
-    """Class to test the functions
-     
-    in src.pfp2023_richelbilderbeek.easy_solutions euler 1 problem.
+    """Class to test Euler functions.
+
+    Tests Euler functions in src.pfp2023_richelbilderbeek.easy_solutions
+    euler 1 problem.
     """
 
     def test_euler1(self):

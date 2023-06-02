@@ -1,8 +1,10 @@
 """Testing Euler problems."""
 import unittest
+
 from src.pfp2023_richelbilderbeek.euler import (
     euler_1,
 )
+
 
 class TestEasySolutions(unittest.TestCase):
     """Class to test the functions in 

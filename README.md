@@ -93,6 +93,10 @@ In all cases:
 
  * Create an Issue for it
 
+## [Feedback to students](feedback_to_students/README.md)
+
+ * [Feedback to students](feedback_to_students/README.md)
+
 ## Guidelines
 
  * [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
@@ -108,6 +112,7 @@ In all cases:
  * [Fail Fast](https://en.wikipedia.org/wiki/Fail-fast)
  * [Refactoring](https://refactoring.com/catalog/)
 
+
 ## Files
 
 Filename                           |Descriptions
@@ -121,7 +126,3 @@ Filename                           |Descriptions
 ## Links
 
  * [Project Euler](https://projecteuler.net/archives)
-
-This is a beautiful feature.
-
-
